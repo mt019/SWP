@@ -16,10 +16,10 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    local_business_type: 'law firm'
+    org_name: '薛維平律師事務所'
+    description: '薛維平律師事務所。刑事民事家事訴訟代理'
+    # twitter: 'wowchemy'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
