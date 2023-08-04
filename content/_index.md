@@ -290,6 +290,6 @@ sections:
       #   url: https://discord.gg/z8wNYzb
       cta_note:
         label: >-
-          <div align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.877228057775!2d121.5455719!3d25.038240200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab803a5f67e3%3A0xf1f2ce7d04ba913a!2z6Jab57at5bmz5b6L5bir5LqL5YuZ5omA!5e0!3m2!1szh-TW!2stw!4v1690955923023!5m2!1szh-TW!2stw" width=100% height=100% style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>    
+          <div align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.877228057775!2d121.5455719!3d25.038240200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab803a5f67e3%3A0xf1f2ce7d04ba913a!2z6Jab57at5bmz5b6L5bir5LqL5YuZ5omA!5e0!3m2!1szh-TW!2stw!4v1690955923023!5m2!1szh-TW!2stw" width=100% height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>    
 ---
 
