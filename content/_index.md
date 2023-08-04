@@ -38,25 +38,29 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: 關於本所
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+
+
   - block: features
     content:
-      title: Skills
+      title: 服務項目
       items:
-        - name: 
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
+        - name: 訴訟
+          description: 出庭辯護
+          icon: scale-balanced
           icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
+        - name: 調解
+          description: 解決紛爭
+          icon: handshake
           icon_pack: fas
+        - name: 顧問
+          description: 契約審擬
+          icon: file-contract
+          icon_pack: fas
+
+
   # - block: experience
   #   content:
   #     title: Experience
@@ -158,33 +162,33 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
+  # - block: portfolio
+  #   # id: projects
+  #   # content:
+  #   #   title: Projects
+  #   #   filters:
+  #   #     folders:
+  #   #       - project
+  #     # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+  #     default_button_index: 0
       # Filter toolbar (optional).
       # Add or remove as many filters (`filter_button` instances) as you like.
       # To show all items, set `tag` to "*".
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+      # buttons:
+      #   - name: All
+      #     tag: '*'
+      #   - name: Deep Learning
+      #     tag: Deep Learning
+      #   - name: Other
+      #     tag: Demo
+    # design:
+    #   # Choose how many columns the section has. Valid values: '1' or '2'.
+    #   columns: '1'
+    #   view: showcase
+    #   # For Showcase view, flip alternate rows?
+    #   flip_alt_rows: false
   # - block: markdown
   #   content:
   #     title: Gallery
@@ -193,41 +197,42 @@ sections:
   #       {{< gallery album="demo" >}}
   #   design:
   #     columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+  # - block: collection
+  #   id: featured
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     columns: '2'
+  #     view: card
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
+  
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
   - block: tag_cloud
     content:
       title: Popular Topics
@@ -239,65 +244,38 @@ sections:
   - block: contact
     id: contact
     content:
-      title: Contact
+      title: 聯絡資訊
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        法律諮詢採付費制，不提供任何形式的免費諮詢服務。
       # Contact (add or remove contact options as necessary)
       contact_links:
-        # - icon: map-location-dot
-        #   icon_pack: fas
-        #   name: 106 台北市大安區 仁愛路四段31號8樓之2
-        #   link: 'https://goo.gl/maps/gL5D9CaZYTini2Fb9'
-        - icon: line
-          icon_pack: fab
-          name: 預約諮詢
-          link: 'https://twitter.com/Twitter'
-      email: test@example.org
-      phone: 02 2311 6690
-      # appointment_url: 'https://calendly.com'
-      # address:
-      #   # street: 大安區仁愛路四段31號8樓之2
-      #   city: 台北市
-      #   # region: CA
-      #   postcode: '106'
-      #   country: TW
-      #   country_code: TW
-      # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+
+      # email: test@example.org
+      phone: 02 2311 6690 （汪小姐）
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
       #   - 'Wednesday 09:00 to 10:00'
 
-
       contact_links:
+
         - icon: map-location-dot
           icon_pack: fas
           name: 106 台北市大安區 仁愛路四段31號8樓之2
           link: https://goo.gl/maps/L8MyGnNMxsnAgziP7
-        - icon: line
-          icon_pack: fab
-          name: 預約諮詢
-          link: 'https://twitter.com/Twitter'
-        # - icon: skype
-        #   icon_pack: fab
-        #   name: Skype Me
-        #   link: 'skype:echo123?call'
-        # - icon: video
-        #   icon_pack: fas
-        #   name: Zoom Me
-        #   link: 'https://zoom.com'
+
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
-    design:
-      columns: '2'
+    #   form:
+    #     provider: netlify
+    #     formspree:
+    #       id:
+    #     netlify:
+    #       # Enable CAPTCHA challenge to reduce spam?
+    #       captcha: false
+    # design:
+    #   columns: '2'
 
   - block: hero
     content:
