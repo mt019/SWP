@@ -7,7 +7,7 @@ main:
   - name: 本所簡介
     url: '#about'
     weight: 10
-  - name: Posts
+  - name: 最新消息
     url: '#posts'
     weight: 20
   # - name: Projects
