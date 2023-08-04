@@ -138,7 +138,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: 最新消息
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -235,7 +235,7 @@ sections:
   #     view: compact
   - block: tag_cloud
     content:
-      title: Popular Topics
+      title: 專業領域
     design:
       columns: '2'
 

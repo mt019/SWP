@@ -50,7 +50,7 @@ bio: 薛律師是一位專業、敬業且經驗豐富的律師，擁有廣泛的
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: '#contact'
   # - icon: line
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
